@@ -1,7 +1,17 @@
 <!doctype html>
 <html>
+<script>
+setInterval(function(){
+    if($('#myDiv').hasClass('divClassRed')){
+        $('#myDiv').addClass('divClassBlue').removeClass('divClassRed');            
+    }else{
+        $('#myDiv').addClass('divClassRed').removeClass('divClassBlue');
+    }
+
+},1000);
+</script>
 <head>
-<link rel="stylesheet" href="css/sdpt2.css">
+<link rel="stylesheet" href="css/aboutme.css">
 <meta charset="utf-8">
 <title>index</title>
 </head>
@@ -11,5 +21,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 </style>
 <body>
+<div class="main">
+	<div class="header">
+    	<ul style=" width:500px; height:100%;">
+        	<li class="headli">test</li>
+            <li class="headli">test</ul>
+        </ul>
+    </div>
+    <div class="content">
+    	
+    </div>
+    
+
+</div>
 </body>
+
 </html>
