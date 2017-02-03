@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<script>
+setInterval(function(){
+    if($('#myDiv').hasClass('divClassRed')){
+        $('#myDiv').addClass('divClassBlue').removeClass('divClassRed');            
+    }else{
+        $('#myDiv').addClass('divClassRed').removeClass('divClassBlue');
+    }
+
+},1000);
+</script>
+<head>
+<link rel="stylesheet" href="../css/content.css">
+<meta charset="utf-8">
+<title>index</title>
+</head>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+</style>
+<body>
+<div class="main">
+	<div class="header">
+    	<ul style=" width:1200px; height:100%;">
+        	<li class="headli"><a href="#">home</a></li>
+            <li class="headli"><a href="#">snowflakes</a></li>
+            <li class="headli"><a href="#">sports</a></li>
+            <li class="headli"><a href="#">food</a></li>
+            
+        </ul>
+    </div>
+    <div class="content">
+    	<div class="bannerid">
+        	Snowflake Types
+        </div>
+    	<div class="homeinfo">
+        	<div style="padding-top:25px; position:relative;">
+            
+                <p class="infop">Did you know there are over 50 types of snowflakes?</p>
+                <div id="col1">
+                <p class="pinfo">Type</p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+            	</div><div id="col1">
+                <p class="pinfo">Type</p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                <p class="pinfos"></p>
+                
+            	</div>
+            </div>
+        </div>	
+    </div>
+    
+
+</div>
+</body>
+
+</html>
