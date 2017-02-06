@@ -69,6 +69,15 @@ box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
 	text-align:center;
 	
 }
+.contentarea
+{
+	float:left;
+	width:55vw;
+	height:400px;
+	border:solid 1px white;
+	padding:25px;
+	
+}
 .pinfos
 {
 	font-size:23px;
@@ -79,6 +88,23 @@ box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
 	width:200px;
 	
 	margin:0 auto;
+	
+}
+.contentp
+{
+	font-size:26px;
+	font-family:Josefin Sans;
+	color:white;
+	margin-bottom:5px;
+	width:200px;
+	
+	
+}
+.contentimg
+{
+	float:right;
+	width:500px;
+	height:500px;
 	
 }
 .pinfos:hover
