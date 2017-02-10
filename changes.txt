@@ -1,4 +1,7 @@
 Changes made:
 added humans.txt to identify contributers and project info, and linked it in <head> of index
 added css foreground fullscreen animation using custom keyframes
+used audio tag to add intro to website, turn up your volume on index.html :)
+implemented &nspb and <br> into html in order to format content,
+added custom cursor with snowflake, fetches from url.
 
