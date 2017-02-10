@@ -24,7 +24,7 @@ body{
 }
 .bannerid
 {
-	margin-left:-350px;
+	margin-left:-500px;
 	left:50%;
 	padding:40px;
 	font-size:70px;
@@ -33,13 +33,25 @@ body{
 	color:#3281ff;
 	height:100px;
 	position:absolute;
-	width:600px;
+	width:900px;
 }
 .homeinfo
 {
 	width:100%;
 	margin-top:150px;
 	height:734px;
+	position:relative;
+	background-color:#3281ff;
+	-webkit-box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
+-moz-box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
+box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
+	
+}
+.homeinfolong
+{
+	width:100%;
+	margin-top:150px;
+	height:1134px;
 	position:relative;
 	background-color:#3281ff;
 	-webkit-box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
@@ -74,6 +86,14 @@ box-shadow: inset 0px -1px 191px -100px rgba(0,0,0,0.93);
 	float:left;
 	width:55vw;
 	height:400px;
+	border:solid 1px white;
+	padding:25px;
+	
+}
+.contentarealong
+{
+	float:left;
+	width:55vw;
 	border:solid 1px white;
 	padding:25px;
 	
@@ -179,3 +199,39 @@ a:visited
   z-index:1;
 	
 }
+body { background-color:#333; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	

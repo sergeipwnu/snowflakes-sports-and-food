@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<audio src="welcome.mp3" autoplay="autoplay" loop="loop"></audio>
 <script>
 setInterval(function(){
     if($('#myDiv').hasClass('divClassRed')){
@@ -12,6 +13,7 @@ setInterval(function(){
 </script>
 <head>
 <link rel="stylesheet" href="css/aboutme.css">
+<link rel="author" href="humans.txt" />
 <meta charset="utf-8">
 <title>index</title>
 </head>
@@ -19,9 +21,11 @@ setInterval(function(){
 @import url('https://fonts.googleapis.com/css?family=Raleway:100');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
 </style>
 <body>
 <div class="main">
+
 	<div class="header">
     	<ul style=" width:1200px; height:100%;">
         	<li class="headli"><a href="#">home</a></li>
@@ -31,13 +35,15 @@ setInterval(function(){
             
         </ul>
     </div>
-    <div class="content">
+    <div class="content" >
+        <div id="snow"></div>
     	<div class="homeinfo">
         	<div style="padding-top:120px; position:relative;">
                 <p class="infop">Your site for everything:</p>
                 <p class="infop">Snowflakes</p>
                 <p class="infop">Sports</p>
                 <p class="infop">& food!</p>
+
             </div>
         </div>	
     </div>
